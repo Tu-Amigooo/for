@@ -1,0 +1,101 @@
+body{
+    background-color: white;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+header{
+    background-color: #ffb6c1;
+    color: white;
+    text-align: center;
+    padding: 1rem ;
+}
+
+.about{
+    text-align: center;
+}
+section{
+    text-align: center;
+    padding: 0.5rem;
+}
+.img-container{
+    height: auto;
+    display: flex;
+    justify-self: center;
+    gap: 20%;
+    flex-wrap: wrap;
+    display: flex;
+    
+}
+
+.im{
+    width: 30%;
+    position: relative;
+    margin: 0;
+    display: inline-block;
+}
+.im2{
+    width: 23%;
+    position: relative;
+    margin: 0;
+    display: inline-block;
+}
+.im3{
+    width: 23%;
+    position: relative;
+    margin: 0;
+    display: inline-block;
+}
+.t{
+    position: absolute;
+    height: 99%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(44, 42, 42, 0.384);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+.tt{
+    position: absolute;
+    display: flex;
+    font-size: 20px;
+    top: 40%;
+    left: 10%;
+    bottom: 50%;
+    right: 50%;
+    color: white;
+    font-size: 1rem;
+
+}
+.t:hover{
+    opacity: 1;
+}
+
+button{
+    background-color: hotpink;
+    color: white;
+    padding: 0.2rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #ff1493;
+}
+footer{
+    text-align: center;
+    padding: 1rem;
+    background-color: #ffb6c1;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
