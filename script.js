@@ -17,12 +17,10 @@ function doMes(){
         alert(`${sendThis}`);
     }
     else if (hours > 12 && hours < 18){
-        alert(`Good Afternoon My Love 
-        ${sendAfternoon}`);
+        alert(`${sendAfternoon}`);
     }
     else if (hours > 18 && hours < 20){
-        alert(`Good Evening Nezu 
-        ${sendEvening}`);
+        alert(`${sendEvening}`);
     }
     else{
         alert(`${sendThat}`)
