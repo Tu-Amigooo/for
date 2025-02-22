@@ -41,8 +41,8 @@ let mus5 = `"Love is a waste of time pk Sonu nigam song covered by TejAs.mp3"`
 let mus6 = `"LYRICAL_ Main Agar Kahoon _ Om Shanti Om _ Shahrukh Khan,Deepika Padukone _ Sonu Nigam,Shreya Ghosal.mp3"`
 
 let date = new Date();
-// let hours = date.getHours();
-let hours = 22;
+let hours = date.getHours();
+//let hours = 22;
 if (hours > 0 && hours < 7){
     document.querySelector(".imp").innerHTML = `
     <img class="pl" src=${src1} alt="">
